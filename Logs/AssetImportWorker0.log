@@ -197,3 +197,27 @@ Received Import Request.
 Start importing Assets/UnityTechnologies/Prefabs/JohnLemon.prefab using Guid(6f8d58dad3df9486ba83e31ac9b3a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b0957341ad951295e695ef990f9b30') in 2.728451 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 107.947085 seconds.
+  path: Assets/UnityTechnologies/Animation/Animators
+  artifactKey: Guid(3e1ff1aa196645e4a912d1c3bb76a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Animation/Animators using Guid(3e1ff1aa196645e4a912d1c3bb76a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5d716fc6a1426bdc6e66a3384f6606') in 0.004210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.989297 seconds.
+  path: Assets/UnityTechnologies/Animation/Animators/New Animator Controller.controller
+  artifactKey: Guid(48ae14d273ba64e9e891bda819869778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Animation/Animators/New Animator Controller.controller using Guid(48ae14d273ba64e9e891bda819869778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3361f4a5ed8b98f45a4da4bd9027d51') in 0.014113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.903223 seconds.
+  path: Assets/UnityTechnologies/Animation/Animators/JohnLemon.controller
+  artifactKey: Guid(48ae14d273ba64e9e891bda819869778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Animation/Animators/JohnLemon.controller using Guid(48ae14d273ba64e9e891bda819869778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7709ff5b065efcac8781d4766c4c2aec') in 0.006476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
