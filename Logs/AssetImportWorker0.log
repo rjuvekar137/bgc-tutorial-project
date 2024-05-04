@@ -189,3 +189,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1382400.444061 seconds.
+  path: Assets/UnityTechnologies/Prefabs/JohnLemon.prefab
+  artifactKey: Guid(6f8d58dad3df9486ba83e31ac9b3a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/JohnLemon.prefab using Guid(6f8d58dad3df9486ba83e31ac9b3a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b0957341ad951295e695ef990f9b30') in 2.728451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
