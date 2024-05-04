@@ -221,3 +221,27 @@ Received Import Request.
 Start importing Assets/UnityTechnologies/Animation/Animators/JohnLemon.controller using Guid(48ae14d273ba64e9e891bda819869778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7709ff5b065efcac8781d4766c4c2aec') in 0.006476 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 432.769639 seconds.
+  path: Assets/UnityTechnologies/Models/Characters/JohnLemon.fbx
+  artifactKey: Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Models/Characters/JohnLemon.fbx using Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57472ccb332e11cf975308f318928582') in 0.470272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 21.435271 seconds.
+  path: Assets/UnityTechnologies/Prefabs/JohnLemon.prefab
+  artifactKey: Guid(6f8d58dad3df9486ba83e31ac9b3a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/JohnLemon.prefab using Guid(6f8d58dad3df9486ba83e31ac9b3a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148985768b666669173d90b62e7994ad') in 0.029957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 74.576485 seconds.
+  path: Assets/UnityTechnologies/Prefabs/JohnLemon.prefab
+  artifactKey: Guid(6f8d58dad3df9486ba83e31ac9b3a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/JohnLemon.prefab using Guid(6f8d58dad3df9486ba83e31ac9b3a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b60911f65b25364a5ad6601f2f1ebc1') in 0.089642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 170
