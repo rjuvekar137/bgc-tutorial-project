@@ -873,3 +873,41 @@ Received Import Request.
 Start importing Assets/UnityTechnologies/Prefabs/Ghost.prefab using Guid(9b458be030a2d4bee87054bd68d2094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9421265b7805032a110564d5be25d63') in 0.384308 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 123
+========================================================================
+Received Import Request.
+  Time since last request: 75.274219 seconds.
+  path: Assets/UnityTechnologies/Animation/Animators/Ghost.controller
+  artifactKey: Guid(30aefb99bef74461a9edaca586405636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Animation/Animators/Ghost.controller using Guid(30aefb99bef74461a9edaca586405636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6ecf76370b3fce42bc8b7a9efb3fbe') in 0.007832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.989021 seconds.
+  path: Assets/UnityTechnologies/Animation/Animation
+  artifactKey: Guid(16c12986779f71343a6e6759d132b35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Animation/Animation using Guid(16c12986779f71343a6e6759d132b35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014e167ee1bb9ba0fb63d5c7d5f79adb') in 0.008521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 93.156555 seconds.
+  path: Assets/UnityTechnologies/Prefabs/Ghost.prefab
+  artifactKey: Guid(9b458be030a2d4bee87054bd68d2094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/Ghost.prefab using Guid(9b458be030a2d4bee87054bd68d2094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Ghost) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorUtility.cs:662)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorUtility.cs:628)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:115)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:109)
+UnityEditor.GameObjectInspector:GetPreviewData (bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:941)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1150)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:47)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:14)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'ac6641267978abcf39c087103d0eddaf') in 0.066752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
