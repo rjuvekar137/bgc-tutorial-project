@@ -865,3 +865,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1344.055762 seconds.
+  path: Assets/UnityTechnologies/Prefabs/Ghost.prefab
+  artifactKey: Guid(9b458be030a2d4bee87054bd68d2094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/Ghost.prefab using Guid(9b458be030a2d4bee87054bd68d2094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9421265b7805032a110564d5be25d63') in 0.384308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 123
