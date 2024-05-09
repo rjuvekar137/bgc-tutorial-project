@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets/UnityTechnologies/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/UnityTechnologies/Scripts/GameEnding.cs" />
+    <Compile Include="Assets/UnityTechnologies/Scripts/Observer.cs" />
     <Compile Include="Assets/UnityTechnologies/Scripts/LightFlicker.cs" />
     <Compile Include="Assets/UnityTechnologies/Scripts/PlayerMovement.cs" />
   </ItemGroup>
