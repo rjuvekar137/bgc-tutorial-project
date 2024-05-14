@@ -1,0 +1,303 @@
+Unity Editor version:    2022.3.17f1 (4fc78088f837)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.2 (Build 22G91)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rjuvekar/Documents/GitHub/bgc-tutorial-project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62432
+Successfully changed project path to: /Users/rjuvekar/Documents/GitHub/bgc-tutorial-project
+/Users/rjuvekar/Documents/GitHub/bgc-tutorial-project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8570888320] Host "[IP] 192.168.50.198 [Port] 0 [Flags] 2 [Guid] 506119365 [EditorId] 506119365 [Version] 1048832 [Id] OSXEditor(0,adsjakfhd) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8570888320] Host "[IP] 192.168.50.198 [Port] 0 [Flags] 2 [Guid] 506119365 [EditorId] 506119365 [Version] 1048832 [Id] OSXEditor(0,adsjakfhd) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Refreshing native plugins compatible for Editor in 4.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rjuvekar/Documents/GitHub/bgc-tutorial-project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56122
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001920 seconds.
+- Loaded All Assemblies, in  0.263 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.172 seconds
+Domain Reload Profiling: 435ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (173ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (131ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1275ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (607ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 8.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5185 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (2.2 MB). Loaded Objects now: 5609.
+Memory consumption went from 236.4 MB to 234.2 MB.
+Total: 34.773875 ms (FindLiveObjects: 0.982667 ms CreateObjectMapping: 0.241833 ms MarkObjects: 31.608917 ms  DeleteObjects: 1.939666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 0f5f72dab822025b0759b197a3119d15 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1787647.369963 seconds.
+  path: Assets/UnityTechnologies
+  artifactKey: Guid(5d8321be49b21464fa2632cef97815e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies using Guid(5d8321be49b21464fa2632cef97815e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a493a05089bf8207036cf68b60dcc32') in 0.002965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.410714 seconds.
+  path: Assets/UnityTechnologies/Prefabs/Vial 1.prefab
+  artifactKey: Guid(2e9a47ee718bc4260bdbac466093ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/Vial 1.prefab using Guid(2e9a47ee718bc4260bdbac466093ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e58508c5bdddf3614264b575dadff4') in 0.025699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 89.506390 seconds.
+  path: Assets/UnityTechnologies/Vial 1
+  artifactKey: Guid(2653a44e4d611476c83f06f63e6fcb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Vial 1 using Guid(2653a44e4d611476c83f06f63e6fcb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c93fca3d36bcf2db3940c54ec9dfa2b') in 0.002857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.475734 seconds.
+  path: Assets/UnityTechnologies/VialAsset
+  artifactKey: Guid(2653a44e4d611476c83f06f63e6fcb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/VialAsset using Guid(2653a44e4d611476c83f06f63e6fcb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b059032bddfb9ea755de823877bbcfd') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.150406 seconds.
+  path: Assets/UnityTechnologies/VialAsset/Prefabs/Vial.prefab
+  artifactKey: Guid(624fe73f8cc164729a67694243459169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/VialAsset/Prefabs/Vial.prefab using Guid(624fe73f8cc164729a67694243459169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a0bcb0b27e091663e2a242b96e5478') in 0.029747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 12.351675 seconds.
+  path: Assets/UnityTechnologies/VialAsset/Models/Vial.fbx
+  artifactKey: Guid(b521b07d1914e43fbadb3960c3545122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/VialAsset/Models/Vial.fbx using Guid(b521b07d1914e43fbadb3960c3545122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb99092154d7f39b3abeb741eaf546b') in 0.544283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 31.707553 seconds.
+  path: Assets/UnityTechnologies/Prefabs/Vial.prefab
+  artifactKey: Guid(87ec0b5d2295f4a35b2afff6db417e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/Vial.prefab using Guid(87ec0b5d2295f4a35b2afff6db417e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e60e3be9be5b265acb89a938c19797') in 0.014158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 9.272581 seconds.
+  path: Assets/UnityTechnologies/Materials
+  artifactKey: Guid(3f0f264239b4ea943937dd9d0fc60963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Materials using Guid(3f0f264239b4ea943937dd9d0fc60963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049e2f5727acf9a24cb8ad02f3762117') in 0.000710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.241759 seconds.
+  path: Assets/UnityTechnologies/Materials/VialAsset
+  artifactKey: Guid(dd2017ecb39ce499aa005b68d15db575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Materials/VialAsset using Guid(dd2017ecb39ce499aa005b68d15db575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe518374573d1dffd61ed5dc04de449f') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.676959 seconds.
+  path: Assets/UnityTechnologies/Models
+  artifactKey: Guid(5c22133398df5aa4eba6d956857390aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Models using Guid(5c22133398df5aa4eba6d956857390aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7e8b659e442d285fe308a516243c94') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.286424 seconds.
+  path: Assets/UnityTechnologies/Models/VialAsset
+  artifactKey: Guid(f406d24eef09c422ab63263afcc386cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Models/VialAsset using Guid(f406d24eef09c422ab63263afcc386cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608e27294d864d31faed360dd6775300') in 0.001392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.328973 seconds.
+  path: Assets/UnityTechnologies/VialAsset/Textures/LabelandCork Diffuse Color.png
+  artifactKey: Guid(04828524f483b417faced7eb49335994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/VialAsset/Textures/LabelandCork Diffuse Color.png using Guid(04828524f483b417faced7eb49335994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcb26a446e9f0233c5acb638299e44f') in 0.053759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.852734 seconds.
+  path: Assets/UnityTechnologies/Textures/VialAsset
+  artifactKey: Guid(c4dcba449335c4357a8bb4b8e8615b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Textures/VialAsset using Guid(c4dcba449335c4357a8bb4b8e8615b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab488c8146f990d6bbb1da1a1e6c7016') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.904263 seconds.
+  path: Assets/UnityTechnologies/Prefabs/Vial.prefab
+  artifactKey: Guid(87ec0b5d2295f4a35b2afff6db417e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Prefabs/Vial.prefab using Guid(87ec0b5d2295f4a35b2afff6db417e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65955db46dce7507f75c2aefee43c295') in 0.065750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
