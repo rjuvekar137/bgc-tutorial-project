@@ -13,6 +13,18 @@ PrefabInstance:
       value: Vial
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b521b07d1914e43fbadb3960c3545122, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b521b07d1914e43fbadb3960c3545122, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b521b07d1914e43fbadb3960c3545122, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: b521b07d1914e43fbadb3960c3545122, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -52,6 +64,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: b521b07d1914e43fbadb3960c3545122, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d65679d66a74d46db9cbf7e7fab53ae2, type: 2}
+    - target: {fileID: 2300006, guid: b521b07d1914e43fbadb3960c3545122, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d65679d66a74d46db9cbf7e7fab53ae2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7334a6bc3ead24f15a37cdf2cfc9d358, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lootSFX: {fileID: 0}
+  potionCounter: {fileID: 0}
 --- !u!136 &7003318524816343052
 CapsuleCollider:
   m_ObjectHideFlags: 0
