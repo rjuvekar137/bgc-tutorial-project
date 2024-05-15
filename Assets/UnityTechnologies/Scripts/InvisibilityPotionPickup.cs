@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class InvisibilityPotionPickup : MonoBehaviour
 {
     //public AudioClip lootSFX;
+    public TMP_Text potionCounter; // Use TMP_Text instead of Text
     int invisPotionCounter = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        potionCounter.text = "Invisibility Potions: 0";
     }
 
     // Update is called once per frame
@@ -22,6 +22,7 @@ public class InvisibilityPotionPickup : MonoBehaviour
         //{
         //    Destroy(gameObject.GetComponent<Rigidbody>());
         //}
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -30,6 +31,7 @@ public class InvisibilityPotionPickup : MonoBehaviour
         {
             gameObject.SetActive(false);
             invisPotionCounter++;
+            potionCounter.text = "Invisibility Potions: " + invisPotionCounter;
             //AudioSource.PlayClipAtPoint(lootSFX, transform.position);
             print(invisPotionCounter);
 
