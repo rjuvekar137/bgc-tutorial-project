@@ -27,7 +27,7 @@ public class Observer : MonoBehaviour
 
     void Update()
     {
-        if (m_IsPlayerInRange)
+        if (m_IsPlayerInRange && !InvisibilityPotionPickup.isInvisible)
         {
             Vector3 direction = player.position - transform.position + Vector3.up;
             Ray ray = new Ray(transform.position, direction);
