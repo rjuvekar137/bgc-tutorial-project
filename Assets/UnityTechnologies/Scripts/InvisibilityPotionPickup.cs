@@ -19,6 +19,7 @@ public class InvisibilityPotionPickup : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Update method is running");
         if (invisPotionCounter > 0 && !isInvisible)
         {
             if (Input.GetKeyDown(KeyCode.Space))
