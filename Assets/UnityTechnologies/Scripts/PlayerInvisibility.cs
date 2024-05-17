@@ -5,13 +5,15 @@ using TMPro;
 public class PlayerInvisibility : MonoBehaviour
 {
     public TMP_Text instructions;
-    public TMP_Text potionCounter;
+    public TMP_Text potionCounter; 
+    public ParticleSystem invisibilityParticles; 
     public static bool isInvisible;
 
     void Start()
     {
         instructions.text = "To enable invisibility, press space!";
         isInvisible = false;
+        invisibilityParticles.Stop();
     }
 
     void Update()
@@ -31,12 +33,18 @@ public class PlayerInvisibility : MonoBehaviour
         InvisibilityPotionPickup.invisPotionCounter--;
         instructions.text = "You're invisible! Run!";
 
-        // Update the potion counter text here
+        // Update the potion counter text
         potionCounter.text = "Invisibility Potions: " + InvisibilityPotionPickup.invisPotionCounter;
+
+        // Enable the particle system
+        invisibilityParticles.Play();
 
         yield return new WaitForSeconds(5f);
 
         isInvisible = false;
         instructions.text = "To enable invisibility, press space!";
+
+        // Disable the particle system
+        invisibilityParticles.Stop();
     }
 }
