@@ -5,9 +5,10 @@ using TMPro;
 public class PlayerInvisibility : MonoBehaviour
 {
     public TMP_Text instructions;
-    public TMP_Text potionCounter; 
-    public ParticleSystem invisibilityParticles; 
+    public TMP_Text potionCounter;
+    public ParticleSystem invisibilityParticles;
     public static bool isInvisible;
+    public float invisibilityDuration = 5f;
 
     void Start()
     {
@@ -31,20 +32,19 @@ public class PlayerInvisibility : MonoBehaviour
     {
         isInvisible = true;
         InvisibilityPotionPickup.invisPotionCounter--;
-        instructions.text = "You're invisible! Run!";
-
-        // Update the potion counter text
         potionCounter.text = "Invisibility Potions: " + InvisibilityPotionPickup.invisPotionCounter;
-
-        // Enable the particle system
         invisibilityParticles.Play();
 
-        yield return new WaitForSeconds(5f);
+        float remainingTime = invisibilityDuration;
+        while (remainingTime > 0)
+        {
+            instructions.text = $"You're invisible! Run! {remainingTime:F1} seconds left";
+            yield return new WaitForSeconds(0.1f);
+            remainingTime -= 0.1f;
+        }
 
         isInvisible = false;
         instructions.text = "To enable invisibility, press space!";
-
-        // Disable the particle system
         invisibilityParticles.Stop();
     }
 }
