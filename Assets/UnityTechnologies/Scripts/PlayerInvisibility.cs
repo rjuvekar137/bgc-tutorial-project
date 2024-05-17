@@ -5,6 +5,7 @@ using TMPro;
 public class PlayerInvisibility : MonoBehaviour
 {
     public TMP_Text instructions;
+    public TMP_Text potionCounter;
     public static bool isInvisible;
 
     void Start()
@@ -29,6 +30,9 @@ public class PlayerInvisibility : MonoBehaviour
         isInvisible = true;
         InvisibilityPotionPickup.invisPotionCounter--;
         instructions.text = "You're invisible! Run!";
+
+        // Update the potion counter text here
+        potionCounter.text = "Invisibility Potions: " + InvisibilityPotionPickup.invisPotionCounter;
 
         yield return new WaitForSeconds(5f);
 
