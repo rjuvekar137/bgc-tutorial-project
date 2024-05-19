@@ -32,10 +32,10 @@ public class InvisibilityPotionPickup : MonoBehaviour
         {
             isPickedUp = true;
             invisPotionCounter++;
-            Debug.Log("Invisibility Potion picked up. Counter: " + invisPotionCounter);
+            //Debug.Log("Invisibility Potion picked up. Counter: " + invisPotionCounter);
 
             animator.SetBool("PickedUp", true);
-            Debug.Log("PickedUp set to true in Animator.");
+            //Debug.Log("PickedUp set to true in Animator.");
 
             PlayerInvisibility playerInvisibility = other.GetComponent<PlayerInvisibility>();
             if (playerInvisibility != null)
@@ -45,7 +45,6 @@ public class InvisibilityPotionPickup : MonoBehaviour
 
             potionCounter.text = "Invisibility Potions: " + invisPotionCounter;
 
-            // play a sound effect here
             pickupAudio.Play();
             animator.SetBool("PickedUp", true);
             Destroy(gameObject, 3.0f);

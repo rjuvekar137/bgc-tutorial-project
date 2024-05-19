@@ -25,11 +25,6 @@ public class GameEnding : MonoBehaviour
         {
             playerInvisibility = player.GetComponent<PlayerInvisibility>();
         }
-
-        if (playerInvisibility == null)
-        {
-            Debug.LogError("PlayerInvisibility component not found on the player GameObject.");
-        }
     }
 
     void OnTriggerEnter(Collider other)
