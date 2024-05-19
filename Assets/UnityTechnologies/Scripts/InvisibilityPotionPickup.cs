@@ -6,6 +6,7 @@ public class InvisibilityPotionPickup : MonoBehaviour
 {
     public TMP_Text potionCounter;
     public static int invisPotionCounter;
+    public AudioSource pickupAudio;
     private Animator animator;
     private bool isPickedUp = false;
 
@@ -45,20 +46,9 @@ public class InvisibilityPotionPickup : MonoBehaviour
             potionCounter.text = "Invisibility Potions: " + invisPotionCounter;
 
             // play a sound effect here
-            StartCoroutine(WaitForAnimation());
+            pickupAudio.Play();
+            animator.SetBool("PickedUp", true);
+            Destroy(gameObject, 3.0f);
         }
-    }
-
-    private IEnumerator WaitForAnimation()
-    {
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        while (stateInfo.IsName("YourAnimationStateName") && stateInfo.normalizedTime < 1.0f)
-        {
-            yield return null;
-            stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        }
-
-        gameObject.SetActive(false);
-        Destroy(gameObject);
     }
 }

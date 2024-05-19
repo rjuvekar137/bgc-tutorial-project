@@ -7,6 +7,7 @@ public class PlayerInvisibility : MonoBehaviour
     public TMP_Text instructions;
     public TMP_Text potionCounter;
     public ParticleSystem invisibilityParticles;
+    public AudioSource usePotionAudio;
     public static bool isInvisible;
     public float invisibilityDuration = 5f;
 
@@ -30,6 +31,7 @@ public class PlayerInvisibility : MonoBehaviour
 
     IEnumerator ActivateInvisibility()
     {
+        usePotionAudio.Play();
         isInvisible = true;
         InvisibilityPotionPickup.invisPotionCounter--;
         potionCounter.text = "Invisibility Potions: " + InvisibilityPotionPickup.invisPotionCounter;
