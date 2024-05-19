@@ -16,7 +16,7 @@ public class PlayerInvisibility : MonoBehaviour
         isInvisible = false;
         invisibilityParticles.Stop();
     }
-
+    
     void Update()
     {
         if (InvisibilityPotionPickup.invisPotionCounter > 0 && !isInvisible)

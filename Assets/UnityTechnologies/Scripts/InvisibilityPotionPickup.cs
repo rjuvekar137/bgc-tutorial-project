@@ -4,11 +4,14 @@ using TMPro;
 public class InvisibilityPotionPickup : MonoBehaviour
 {
     public TMP_Text potionCounter;
-    public static int invisPotionCounter = 0;
+    public static int invisPotionCounter;
+    private Animator animator;
 
     void Start()
     {
+        invisPotionCounter = 0;
         potionCounter.text = "Invisibility Potions: " + invisPotionCounter;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -22,15 +25,14 @@ public class InvisibilityPotionPickup : MonoBehaviour
         {
             gameObject.SetActive(false);
             invisPotionCounter++;
+            animator.SetBool("PickedUp", true);
 
-            // Find the PlayerInvisibility script on the player and set its potionCounter reference
             PlayerInvisibility playerInvisibility = other.GetComponent<PlayerInvisibility>();
             if (playerInvisibility != null)
             {
                 playerInvisibility.potionCounter = potionCounter;
             }
 
-            // Update the potion counter text here
             potionCounter.text = "Invisibility Potions: " + invisPotionCounter;
 
             // play a sound effect here
