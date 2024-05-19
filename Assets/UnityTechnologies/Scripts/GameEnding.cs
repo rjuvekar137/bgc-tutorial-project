@@ -13,10 +13,24 @@ public class GameEnding : MonoBehaviour
     public CanvasGroup caughtBackgroundImageCanvasGroup;
     public AudioSource caughtAudio;
 
-    bool m_IsPlayerAtExit;
-    bool m_IsPlayerCaught;
-    bool m_HasAudioPlayed;
-    float m_Timer;
+    private PlayerInvisibility playerInvisibility;
+    private bool m_IsPlayerAtExit;
+    private bool m_IsPlayerCaught;
+    private bool m_HasAudioPlayed;
+    private float m_Timer;
+
+    void Start()
+    {
+        if (player != null)
+        {
+            playerInvisibility = player.GetComponent<PlayerInvisibility>();
+        }
+
+        if (playerInvisibility == null)
+        {
+            Debug.LogError("PlayerInvisibility component not found on the player GameObject.");
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -45,7 +59,13 @@ public class GameEnding : MonoBehaviour
 
     void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart, AudioSource audioSource)
     {
-        if(!m_HasAudioPlayed)
+        if (playerInvisibility != null)
+        {
+            playerInvisibility.instructions.gameObject.SetActive(false);
+            playerInvisibility.potionCounter.gameObject.SetActive(false);
+        }
+
+        if (!m_HasAudioPlayed)
         {
             audioSource.Play();
             m_HasAudioPlayed = true;
